@@ -1,0 +1,8 @@
+image:
+  file: .gitpod.Dockerfile
+
+ports:
+- port: 7700
+
+tasks:
+  - command: meilisearch &
